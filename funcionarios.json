@@ -1,0 +1,24 @@
+﻿{
+  "Cpf": "12345678901",
+  "Matricula": "40810655",
+  "Salario": 5045.0,
+  "Departamento": {
+    "Id": "d502219c-3754-4366-8a9b-12f0dce7469e",
+    "Nome": "Desenvolvimento",
+    "Sigla": "Dev01"
+  },
+  "Id": "394cbab9-98f6-4ebf-8656-10e3744f57c7",
+  "Nome": "Marcos Paulo"
+}
+{
+  "Cpf": "01234567890",
+  "Matricula": "40810656",
+  "Salario": 5045.0,
+  "Departamento": {
+    "Id": "a1d4ed2b-0b3d-43a5-b3bd-ae935b31a0fa",
+    "Nome": "Desenvolvimento",
+    "Sigla": "Dev01"
+  },
+  "Id": "27002d04-f314-4313-a245-8474b16dec42",
+  "Nome": "Patricia Helena"
+}
