@@ -1,17 +1,17 @@
-# Aplicativo de Console - Cadastro de Funcionários
+# 📝 Aplicativo de Console - Cadastro de Funcionários
 
 Aplicativo de console em C# (.NET 8) para cadastro simples de funcionários com validação e exportação para JSON.
 
-## Descrição
+## ℹ️ Descrição
 
 O programa solicita os dados do funcionário (nome, CPF, matrícula, salário) e dados do departamento (nome, sigla), valida as entradas e grava cada registro em `funcionarios.json`.
 
-## Requisitos
+## ⚙️ Requisitos
 
 - .NET 8 SDK
 - Visual Studio 2022/2026 ou qualquer editor que suporte .NET 8
 
-## Como compilar e executar
+## ▶️ Como compilar e executar
 
 Pelo terminal (PowerShell):
 
@@ -21,7 +21,7 @@ Pelo terminal (PowerShell):
 
 Ou abra a solução no Visual Studio e execute (F5 ou Ctrl+F5).
 
-## Local de exportação
+## 📁 Local de exportação
 
 Os registros são salvos no arquivo:
 
@@ -29,7 +29,7 @@ Os registros são salvos no arquivo:
 
 Se quiser alterar o local, edite o caminho definido em `Aplicativo de Console/Repositories/FunconarioRepository.cs` (variável `directory`).
 
-## Validações importantes
+## ✅ Validações importantes
 
 - `Nome` do funcionário: somente letras e espaços, entre 8 e 100 caracteres.
 - `CPF`: exatamente 11 dígitos numéricos.
@@ -40,7 +40,7 @@ Se quiser alterar o local, edite o caminho definido em `Aplicativo de Console/Re
 
 Se alguma validação falhar, o programa exibirá a mensagem de erro e perguntará se deseja tentar novamente.
 
-## Observações
+## ⚠️ Observações
 
 - O arquivo `funcionarios.json` é aberto em modo append: cada registro é escrito em uma nova linha no formato JSON.
 - Recomenda-se adicionar um `.gitignore` para ignorar `bin/`, `obj/` e arquivos gerados localmente (por exemplo o próprio `funcionarios.json`).
@@ -54,12 +54,12 @@ Exemplo de entradas válidas ao executar o programa:
 - Nome do departamento: `Desenvolvimento`
 - Sigla do departamento: `DEV1`
 
-## Melhorias sugeridas
+## 🔧 Melhorias sugeridas
 
 - Tornar o caminho de exportação configurável via arquivo de configuração ou argumento de linha de comando.
 - Adicionar tratamento para evitar gravação do arquivo em repositório (mover para pasta fora do projeto).
 - Adicionar testes automatizados.
 
-## Licença
+## 📄 Licença
 
 Projeto fornecido sem licença específica. Adicione uma licença se desejar publicá-lo.
